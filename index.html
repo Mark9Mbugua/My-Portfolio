@@ -8,6 +8,7 @@
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
         crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet"  type="text/css" href="style.css">
         <title>Mark Mbugua</title>
     </head>
@@ -15,7 +16,7 @@
     <body>
         <section id="header">
             <div class="container-fluid">
-                <nav class="navbar navbar-expand-lg navbar-dark">
+                <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
 
                     <div class="container">
                         <a href="#" class="navbar-brand">Mark Mbugua</a>
@@ -28,13 +29,13 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item active">
-                                    <a href="#" class="nav-link">Home</a>
+                                    <a href="#main" class="nav-link">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Projects</a>
+                                    <a href="#projects" class="nav-link">Projects</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">Contact</a>
+                                    <a href="#contact" class="nav-link">Contact</a>
                                 </li>
                             </ul>
                         </div>   
@@ -44,7 +45,7 @@
             </div>
         </section>
 
-        <section class="main">
+        <section class="main" id="main">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
@@ -57,6 +58,131 @@
             </div>
 
         </section>
+        <section class="main" id="projects">
+            <div class="container">
+                <div class="project">
+                    <div class="jumbotron jumbotron-fluid">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="img-gallery">
+                                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <a href="https://infispace-ke.herokuapp.com/">
+                                                        <img class="d-block w-100" src="images/logo.png" id="project-img" alt="First slide">
+                                                    </a>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <a href="https://infispace-ke.herokuapp.com/">
+                                                        <img class="d-block w-100" src="images/is-hfull.jpg" id="project-img" alt="Second slide">
+                                                    </a>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <a href="https://infispace-ke.herokuapp.com/">
+                                                        <img class="d-block w-100" src="images/is-services.jpg" id="project-img" alt="Third slide">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6" id="project-details">
+                                    <h1 class="display-4">Infispace</h1>
+                                    <p class="lead">A simple Tech company website</p>
+                                    <p class="lead">Stack: React, HTML, CSS, React, React-Bootstrap</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <div class="project">
+                    <div class="jumbotron jumbotron-fluid">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="img-gallery">
+                                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <a href="https://pixabay-images.herokuapp.com/">
+                                                        <img class="d-block w-100" src="images/pix-empty.jpg" id="project-img" alt="First slide">
+                                                    </a>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <a href="https://pixabay-images.herokuapp.com/">
+                                                        <img class="d-block w-100" src="images/pix-images.jpg" id="project-img" alt="Second slide">
+                                                    </a>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <a href="https://pixabay-images.herokuapp.com/">
+                                                        <img class="d-block w-100" src="images/pix-kids.jpg" id="project-img" alt="Third slide">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6" id="project-details">
+                                    <h1 class="display-4">Pixabay Image Finder</h1>
+                                    <p class="lead">A photo gallery project that uses the Pixabay API</p>
+                                    <p class="lead">Stack: React & Material-UI</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <div class="project">
+                    <div class="jumbotron jumbotron-fluid">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="img-gallery">
+                                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <a href="https://mark9mbugua.github.io/meditation-app/">
+                                                        <img class="d-block w-100" src="images/mdapp-1.jpg" id="project-img" alt="First slide">
+                                                    </a>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <a href="https://mark9mbugua.github.io/meditation-app/">
+                                                        <img class="d-block w-100" src="images/mdapp-2.jpg" id="project-img" alt="Second slide">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6" id="project-details">
+                                    <h1 class="display-4">A Meditation App</h1>
+                                    <p class="lead">An application that plays smooth
+                                    sounds in the background to help you relax and meditate.</p>
+                                    <p class="lead">Stack: HTML, CSS and JavaScript</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </section>
+        
+        <section class="main" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h2>Let's talk</h2>
+                            <p>I have experience in HTML, CSS, JavaScript and Python. My stack
+                            includes React, Material CSS, Bootstrap, Django and Flask</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+    
+            </section>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
@@ -70,5 +196,6 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
         crossorigin="anonymous">
         </script>
+        <script src="portfolio.js"></script>
     </body>
 </html>
