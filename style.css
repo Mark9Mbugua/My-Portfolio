@@ -85,9 +85,13 @@ html{
 
 }
 
+.jumbotron {
+    background:  #e6e6e6;
+}
+
 #contact {
     height:700px;
-    background: red;
+    background:  #e6e6e6;
     width: 100%;
     display: inline-block;
 
@@ -136,6 +140,41 @@ html{
 
 .project-details {
     margin-right: 0;
+}
+
+#my-details {
+    position: relative;
+    margin-top: -70px;
+    margin-bottom: 20px;
+}
+.contact-pic {
+    margin-top: 10px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+#contact-me {
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.social-section {
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.social-section div {
+    display:inline-block;
+    width: 50px;
+}
+
+.social-media {
+    width: 30px;
+    height: 30px;
+}
+.social {
+    cursor: pointer;
 }
 
 @media(max-width: 768px){
