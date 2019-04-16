@@ -77,6 +77,10 @@ html{
 
 }
 
+.main .btn:hover{
+    opacity: 0.5;
+}
+
 #projects {
     height:1500px;
     background:white;
@@ -184,4 +188,9 @@ html{
     .main h2 {
         font-size: 2em;
     }
+    img { max-width: 100%; }
+    
+    h1{font-size: 1em;}
+
+    .lead {font-size: 0.5em;}
 };
